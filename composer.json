@@ -19,11 +19,5 @@
     },
     "autoload": {
         "psr-0": { "Apix\\Autoloader": "src/php" }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "/gitroot/apix/autoloader"
-        }
-    ]
+    }
 }
