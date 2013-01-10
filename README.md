@@ -1,8 +1,7 @@
 Apix Autoloader, PSR-0 for PHP5.3+
 ==================================
 
-Out of the box, Apix Autoloader is a light [PSR-0][], [PSR-1][], and [PSR-2][] compliant autoloader.
-Able to autoload both PHP5.3 namespaces and older PEAR-style classes.
+Apix Autoloader is a light [PSR-0][] compliant autoloader which can autoload both PHP5.3 namespaces and older PEAR-style classes straight out of the box.
 
 Basic usage
 --------------
