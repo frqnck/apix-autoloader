@@ -45,14 +45,6 @@ Advanced usage
 Installation
 ------------
 
-* Use PEAR for a system-wide installation:
-
-    ```
-    sudo pear channel-discover pear.ouarz.net
-    sudo pear install --alldeps ouarz/apix_autoloader
-    ```
-For more details see [pear.ouarz.net](http://pear.ouarz.net).
-
 * If you are creating a component that relies on Apix Autoloader locally:
 
   * either update your **`composer.json`** file:
@@ -74,11 +66,18 @@ For more details see [pear.ouarz.net](http://pear.ouarz.net).
           <name>apix_autoloader</name>
           <channel>pear.ouarz.net</channel>
           <min>1.0.0</min>
-          <max>1.999.9999</max>
+          <max>1.999.999</max>
         </package>
       </required>
     </dependencies>
     ```
+* For a system-wide installation, use PEAR as follow:
+
+    ```
+    sudo pear channel-discover pear.ouarz.net
+    sudo pear install --alldeps ouarz/apix_autoloader
+    ```
+Checkout [pear.ouarz.net](http://pear.ouarz.net) for more details.
 
 License
 -------

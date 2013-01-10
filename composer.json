@@ -1,6 +1,6 @@
 {
     "name": "apix/autoloader",
-    "description": "Light PSR-0, PSR-1, and PSR-2 compliant autoloader for PHP5.3+ namespaces and older PEAR-style classes.",
+    "description": "Light PSR-0 compliant autoloader for PHP5.3+ namespaces and older PEAR-style classes.",
     "type": "apix-package",
     "keywords": ["psr-0", "spl classloader", "classloader", "autoload", "autoloader", "pear", "apix"],
     "homepage": "https://github.com/frqnck/apix-autoloader",
@@ -19,11 +19,5 @@
     },
     "autoload": {
         "psr-0": { "Apix\\Autoloader": "src/php" }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "/gitroot/apix/autoloader"
-        }
-    ]
+    }
 }
