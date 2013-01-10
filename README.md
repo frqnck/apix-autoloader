@@ -1,7 +1,7 @@
-ApixAutoloader, PSR-0 for PHP5.3+
-==============
+Apix Autoloader, PSR-0 for PHP5.3+
+==================================
 
-Out of the box, ApixAutoloader is a light [PSR-0][], [PSR-1][], and [PSR-2][] compliant autoloader.
+Out of the box, Apix Autoloader is a light [PSR-0][], [PSR-1][], and [PSR-2][] compliant autoloader.
 Able to autoload both PHP5.3 namespaces and older PEAR-style classes.
 
 Basic usage
@@ -49,18 +49,18 @@ Installation
 
     ```
     sudo pear channel-discover pear.ouarz.net
-    sudo pear install --alldeps ouarz/ApixAutoloader
+    sudo pear install --alldeps ouarz/apix_autoloader
     ```
 For more details see [pear.ouarz.net](http://pear.ouarz.net).
 
-* If you are creating a component that relies on ApixAutoloader locally:
+* If you are creating a component that relies on Apix Autoloader locally:
 
   * either update your **`composer.json`** file:
 
     ```json
     {
       "require": {
-        "apix/ApixAutoloader": "1.*.*"
+        "apix/autoloader": "1.0.*"
       }
     }
     ```
@@ -71,7 +71,7 @@ For more details see [pear.ouarz.net](http://pear.ouarz.net).
     <dependencies>
       <required>
         <package>
-          <name>ApixAutoloader</name>
+          <name>apix_autoloader</name>
           <channel>pear.ouarz.net</channel>
           <min>1.0.0</min>
           <max>1.999.9999</max>
@@ -82,7 +82,7 @@ For more details see [pear.ouarz.net](http://pear.ouarz.net).
 
 License
 -------
-ApixAutoloader is licensed under the New BSD license -- see the `LICENSE.txt` for the full license details.
+Apix Autoloader is licensed under the New BSD license -- see the `LICENSE.txt` for the full license details.
 
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
