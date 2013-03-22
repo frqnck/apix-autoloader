@@ -18,11 +18,11 @@ Basic usage
 
   ```php
     <?php
-        require '/path_to/Apix/Autoload.php';
+        require '/path_to/Apix/Autoloader.php';
 
         $prepend = array('path/to/libs', 'path/to/vendor'); // paths to prepend
         $append  = array('path/to/last/dir');               // paths to append
-        Apix\Autoload::init($prepend, $append);
+        Apix\Autoloader::init($prepend, $append);
   ```
 
 Advanced usage
@@ -30,9 +30,9 @@ Advanced usage
 
 ```php
   <?php
-      require '/path_to/Apix/Autoload.php';
+      require '/path_to/Apix/Autoloader.php';
 
-      $loader = new Apix\Autoload;
+      $loader = new Apix\Autoloader;
       $loader->prepend('path/my/libs')
              ->prepend('path/vendors')
              ->append('some/other/path');
